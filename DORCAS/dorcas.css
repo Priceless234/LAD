@@ -1,0 +1,57 @@
+body{
+    background-image: url('images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 20px;
+}
+h1{
+    margin-bottom: 1px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+nav{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    top: 0px;
+    right: 0px;
+    padding: 10px 60px;
+    margin-bottom: 30px;
+    position: absolute;
+    text-align: right;
+}
+marquee{
+    white-space: nowrap;
+    animation: move-text 10s linear infinite;
+    font-size: 17px;
+    margin-top: 5px;
+    color: red;
+}
+.weo{
+    color: red;
+    text-align: left;
+    font-size: 17px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+    padding-left: 20px;
+}
+h3{
+    font-size: 20px;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+img{
+  width: 280px;       /* Set width */
+  height: 330px;      /* Set height to be different for oval effect */
+  border-radius: 50%; /* Turns rectangle into oval */
+  object-fit: cover;  /* Ensures image fills the shape */
+  float: right;
+  margin: 20px;
+  margin-top: 10px;
+  position: static;
+}
